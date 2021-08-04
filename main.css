@@ -1,0 +1,22 @@
+* {
+    color: blueviolet;
+}
+h1 {
+    color: red;
+}
+p {
+    color: blue;
+}
+li {
+    font-size: 20px;
+}
+.cocuk {
+ font-size: 30px;
+ color: brown;
+}
+#ismail-2{
+    color: chartreuse;
+}
+[class] {
+    font-size: 2em;
+}
