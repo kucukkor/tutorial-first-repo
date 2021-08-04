@@ -1,22 +1,46 @@
-* {
-    color: blueviolet;
+img {
+    width: 100%;
 }
-h1 {
-    color: red;
+a {
+    color: black;
 }
-p {
-    color: blue;
+html {
+    font-size: 21px;
+    line-height: 1.4;
 }
-li {
-    font-size: 20px;
+article {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
-.cocuk {
- font-size: 30px;
- color: brown;
+figure {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
 }
-#ismail-2{
-    color: chartreuse;
+figcaption{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 1em;
 }
-[class] {
-    font-size: 2em;
+h3{
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.gray {
+    color: gray;
+}
+
+.ff-sans {
+    font-family: sans-serif;
+}
+
+blockquote {
+    font-size: 1.5em;
+}
+
+h1,h3,blockquote {
+    line-height: 1.2;
 }
