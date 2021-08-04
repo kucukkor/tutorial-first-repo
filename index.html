@@ -1,38 +1,52 @@
 <html>
 
 <head>
-    <title>How to Prepare for a Possible Coronavirus Pandemic</title>
-    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="project-3.css">
 </head>
 
 <body>
-    <article>
-        <h1>How to Prepare for a Possible Coronavirus Pandemic</h1>
+    <form action="">
+        <input type="hidden" value="gizli-data" name="gizli-data">
+        <div class="form-row">
+            <label for="adi">Adı</label>
+            <input name="adi" id="adi" type="text" required placeholder="ismail Küçükkör">
+        </div>
 
-        <h3 class="gray ff-sans">
-            CDC says to expect a potentially ‘severe’ disruption to everyday life
-        </h3>
-        <figure>
-            <img src="photo.jpeg" alt="duvarda asılı posterler">
-            <figcaption class="gray ff-sans">Photo: Smith Collection/Gado/Getty Images</figcaption>
-        </figure>
+        <div class="form-row">
+            <label for="tel">Telefon</label>
+            <input name="tel" id="tel" type="tel" required>
+        </div>
 
-        <p>
-            The person leading the U.S. response to the <a href="">coronavirus outbreak</a>, Dr. Nancy Messonnier at the
-            U.S. Centers for
-            Disease Control and Prevention, is preparing herself and her family for a possible pandemic that could cause
-            “severe” disruption to everyday life as businesses curtail activity, schools possibly close, and social
-            gatherings are discouraged.
-        </p>
-        <blockquote>
-            “We really want to prepare the American public for the possibility that their lives will be disrupted
-            because of this pandemic.”
-        </blockquote>
-        <p>
-            That would seem to be already the case. Community spreading — cases that appear without a known source of
-            exposure — are now occurring in Hong Kong, Iran, Italy, Japan, Singapore, South Korea, Taiwan, and Thailand.
-        </p>
-    </article>
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input name="email" id="email" type="email" required>
+        </div>
+        <div class="form-row">
+            <label for="mesaj">Mesaj</label>
+            <textarea name="mesaj" id="mesaj" cols="50" rows="3"></textarea>
+
+        </div>
+        <div class="form-row">
+            <label for="sehir">Mesaj</label>
+            <select name="sehir" id="sehir">
+                <option value="34" selected>İstanbul</option>
+                <option value="35">İzmir</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <p>Sevdiğiniz Renk</p>
+            <div class="radio-container">
+                <label><input name="renk" type="radio" value="kirmizi" checked> Kırmızı</label>
+                <label><input name="renk" type="radio" value="yesil"> Yeşil</label>
+            </div>
+                </div>
+
+                <div class="form-row">
+                    <button type="reset">Sıfırla</button>
+                    <button type="submit">Gönder</button>
+                </div>
+    </form>
 </body>
 
 </html>

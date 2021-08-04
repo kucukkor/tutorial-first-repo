@@ -1,46 +1,70 @@
-img {
-    width: 100%;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
-a {
-    color: black;
-}
-html {
-    font-size: 21px;
-    line-height: 1.4;
-}
-article {
-    max-width: 700px;
+
+form {
+    padding: 40px;
+    width: 260px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-}
-figure {
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-}
-figcaption{
-    font-family: sans-serif;
-    font-size: 16px;
-    margin-top: 1em;
-}
-h3{
-    font-family: sans-serif;
-    font-weight: normal;
 }
 
-.gray {
-    color: gray;
+.form-row {
+    margin-bottom: 20px;
 }
 
-.ff-sans {
-    font-family: sans-serif;
+.form-row > label {
+    display: block;
+    margin-bottom: 6px;
 }
 
-blockquote {
-    font-size: 1.5em;
+input[type="text"], input[type="tel"], input[type="email"],select,button, textarea {
+    width: 100%;
+    border-radius: 5px;
+    height: 42px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: white;
 }
 
-h1,h3,blockquote {
-    line-height: 1.2;
+input[type="text"]::placeholder, input[type="tel"]::placeholder, input[type="email"]::placeholder,textarea ::placeholder {
+    color: rgb(175, 175, 175);
+}
+
+input[type="text"]:focus, input[type="tel"]:focus, input[type="email"]:focus,select:focus,textarea:focus {
+    border-color: rgb(68, 176, 255);
+}
+   
+textarea {
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 42px;
+    max-height: 200px;
+    resize: vertical;
+}
+
+.radio-container label {
+    display: inline-block;
+}
+
+.radio-container label + label {
+    margin-left: 20px;
+}
+
+button {
+    display: inline-block;
+    width: auto;
+    border: 0;
+    background-color: #eee;
+}
+
+button[type="submit"]{
+    color: white;
+    background-color: rgb(68, 176, 255);
+    margin-left: 15px;
 }
